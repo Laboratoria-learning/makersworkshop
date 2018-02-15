@@ -14,6 +14,5 @@
     - ¿Qué es un API?, ¿qué son endpoints?
     - ¿Qué es Ajax con Node.js?
     - Estructura de una URL con parámetros
-    - Verbos HTTP y estado
-    - Protocolo HTTP y cross
+    - [Protocolo HTTP](https://developer.mozilla.org/es/docs/Web/HTTP) y cross
     - Formato de carga de data XML, json, txt, csv.
