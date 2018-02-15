@@ -1,8 +1,7 @@
 # MAKERS WORKSHOP - 1st edition
 
-## Tema: Backend con JavaScript
-
-## Reto: Crear una API RESTful utilizando Node.js y Express para consultar la oferta del servicio Metropolitano de Lima.
+## El reto 
+Crear una API RESTful utilizando Node.js y Express para consultar la oferta del servicio Metropolitano de Lima.
 
 ## Entregables
 * UI para visualizar y hacer las consultas
