@@ -1,6 +1,6 @@
 # makersworkshop
 
-## El reto: Crear una API restful utilizando Node.js y express para consultar la oferta del servicio Metropolitano
+## El reto: Crear una API RESTful utilizando Node.js y express para consultar la oferta del servicio Metropolitano
 
 
 ### El reto debe cumplir con los siguientes requerimientos técnicos:
@@ -14,5 +14,6 @@
 * ¿Qué es un API?, ¿qué son endpoints?
 * ¿Qué es Ajax con Node.js?
 * Estructura de una URL con parámetros
-* [Protocolo HTTP](https://developer.mozilla.org/es/docs/Web/HTTP) y cross
+* [Protocolo HTTP](https://developer.mozilla.org/es/docs/Web/HTTP)
+* [Métodos HTTP](https://restfulapi.net/http-methods/)
 * Formato de carga de data XML, json, txt, csv.
