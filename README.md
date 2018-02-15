@@ -18,6 +18,7 @@ Para que llegues lista a romperla en el workshop, hay ciertas cosas que debería
 * [Video: ¿Qué es un RESTful API?](https://www.youtube.com/watch?v=Q-BpqyOT3a8)
 * [Video: ¿Qué es REST y RESTful?](https://www.youtube.com/watch?v=pVAMOielOJQ)
 * [Video: Node.js Tutorial For Absolute Beginners](https://www.youtube.com/watch?v=U8XF6AFGqlc)
+* [What is Node.js? - Twitter Bot Tutorial](https://www.youtube.com/watch?v=RF5_MPSNAtU)
 * [Doc: ¿Qué es el Protocolo HTTP?](https://developer.mozilla.org/es/docs/Web/HTTP)
 * [Doc: Métodos HTTP](https://restfulapi.net/http-methods/)
 * [Doc: Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
