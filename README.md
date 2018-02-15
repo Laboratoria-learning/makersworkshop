@@ -10,9 +10,9 @@
     
     
 ### Para que llegues lista a romperla en el workshop, hay ciertas cosas que deberías saber. Creamos este calentamiento para que empieces a aprender nuevas herramientas y prepararte para el evento:
-    - ¿Cómo implementar un servidor web con Node.js y express?
-    - ¿Qué es un API?, ¿qué son endpoints?
-    - ¿Qué es Ajax con Node.js?
-    - Estructura de una URL con parámetros
-    - [Protocolo HTTP](https://developer.mozilla.org/es/docs/Web/HTTP) y cross
-    - Formato de carga de data XML, json, txt, csv.
+* ¿Cómo implementar un servidor web con Node.js y express?
+* ¿Qué es un API?, ¿qué son endpoints?
+* ¿Qué es Ajax con Node.js?
+* Estructura de una URL con parámetros
+* [Protocolo HTTP](https://developer.mozilla.org/es/docs/Web/HTTP) y cross
+* Formato de carga de data XML, json, txt, csv.
