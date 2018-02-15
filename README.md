@@ -1,15 +1,17 @@
-# makersworkshop
+# MAKERS WORKSHOP - 1st edition
 
-## El reto: Crear una API RESTful utilizando Node.js y express para consultar la oferta del servicio Metropolitano
+## El reto: 
+#### Crear una API RESTful utilizando Node.js y Express para consultar la oferta del servicio Metropolitano de Lima.
 
-
-### El reto debe cumplir con los siguientes requerimientos técnicos:
-    - UI para visualizar y hacer las consultas
-    - Hosted en Firebase o Heroku
-    - Documentación del API en Github
+## Entregables:
+* UI para visualizar y hacer las consultas
+* Hosting en Firebase o Heroku
+* Documentación del API en Github
     
-    
-### Para que llegues lista a romperla en el workshop, hay ciertas cosas que deberías saber. Creamos este calentamiento para que empieces a aprender nuevas herramientas y prepararte para el evento:
+## Calentamiento
+
+Para que llegues lista a romperla en el workshop, hay ciertas cosas que deberías saber. Creamos este calentamiento para que empieces a aprender nuevas herramientas y prepararte para el evento:
+
 * ¿Cómo implementar un servidor web con Node.js y express?
 * ¿Qué es un API?, ¿qué son endpoints?
 * ¿Qué es Ajax con Node.js?
