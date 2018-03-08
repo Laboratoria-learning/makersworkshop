@@ -1,23 +1,21 @@
 # MAKERS WORKSHOP - 1st edition
 
 ## El reto 
-Crear una API RESTful utilizando Node.js y Express para consultar la oferta del servicio Metropolitano de Lima.
+Diseña una plataforma para que las egresadas de Laboratoria puedan conectarse con empleadores freelancers.
 
 ## Entregables
-* UI para visualizar y hacer las consultas
-* Hosting en Firebase o Heroku
-* Documentación del API en Github
-
-## Data
-El día del evento te entregaremos la data del servicio Metropolitano en un excel.
+* User persona
+* Definición del problema
+* User flows
+* Prototipo
 
 ## Calentamiento
 Para que llegues lista a romperla en el workshop, hay ciertas cosas que deberías saber. Creamos este calentamiento para que empieces a aprender nuevas herramientas y prepararte para el evento:
 
-* [Video: ¿Qué es un API?](https://www.youtube.com/watch?v=7YcW25PHnAA)
-* [Video: ¿Qué es un RESTful API?](https://www.youtube.com/watch?v=Q-BpqyOT3a8)
-* [Video: ¿Qué es REST y RESTful?](https://www.youtube.com/watch?v=pVAMOielOJQ)
-* [Video: Node.js Tutorial For Absolute Beginners](https://www.youtube.com/watch?v=U8XF6AFGqlc)
+* [Video: Intro to the design of everyday things](https://www.udacity.com/course/intro-to-the-design-of-everyday-things--design101)
+* [Video: Throw the box - Intro to the Design of Everyday Things](https://www.youtube.com/watch?v=tZkP9evOAtI&feature=youtu.be)
+* [Video: Definition: Affordance](https://www.youtube.com/watch?v=a6F0EYCUjcE&feature=youtu.be)
+* [Video: Definition: Signifier](https://www.youtube.com/watch?v=ZQ-jirlAoD4&feature=youtu.be)
 * [Video: What is Node.js? - Twitter Bot Tutorial](https://www.youtube.com/watch?v=RF5_MPSNAtU)
 * [Doc: ¿Qué es el Protocolo HTTP?](https://developer.mozilla.org/es/docs/Web/HTTP)
 * [Doc: Métodos HTTP](https://restfulapi.net/http-methods/)
