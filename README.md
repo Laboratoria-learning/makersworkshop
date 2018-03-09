@@ -17,3 +17,4 @@ Para que llegues lista a romperla en el workshop, hay ciertas cosas que debería
 * [Video: Definition: Affordance](https://www.youtube.com/watch?v=a6F0EYCUjcE&feature=youtu.be)
 * [Video: Definition: Signifier](https://www.youtube.com/watch?v=ZQ-jirlAoD4&feature=youtu.be)
 * [Curso: Visual Design Fundamentals](https://laboratoria1.gitbooks.io/ec-visual-design-fundamentals/content/)
+* [Curso: UX Research](https://laboratoria1.gitbooks.io/ux/content/)
