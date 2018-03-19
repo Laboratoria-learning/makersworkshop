@@ -23,4 +23,4 @@ Para que llegues lista a romperla en el workshop, hay ciertas cosas que debería
 * [Video: El protocolo HTTP (versión 1.0)](https://www.youtube.com/watch?v=CPUbmKc3rtM&t=289s) 
 * [Video: Building an API with Node.JS](https://www.youtube.com/watch?v=P-Upi9TMrBk&amp=&t=6s)
 * [Doc: Convert CSV to JSON](http://www.convertcsv.com/csv-to-json.htm)
-*[Servicio del Metropolitano](http://www.metropolitano.com.pe/wp-content/themes/metro/poupfiles/nuevos_servicios_metropolitano.pdf)
+* [Servicio del Metropolitano](http://www.metropolitano.com.pe/wp-content/themes/metro/poupfiles/nuevos_servicios_metropolitano.pdf)
