@@ -1,12 +1,22 @@
 # MAKERS WORKSHOP - 1st edition
 
 ## El reto 
-Crear una API RESTful utilizando Node.js y Express para consultar la oferta del servicio Metropolitano de Lima.
+Crear una API RESTful utilizando `Node.js`, [ExpressJS](http://expressjs.com/es/) o [HappiJS](https://hapijs.com/) para consultar la oferta del servicio **Metropolitano de Lima**.
 
 ## Entregables
 * UI para visualizar y hacer las consultas
-* Hosting en Firebase o Heroku
+* Hosting en `Firebase` o `Heroku`
 * Documentación del API en Github
+* Se debe poder responder a:
+  * Estaciones por las que pasa el expreso `n`
+  * Horario del expreso `n`
+  * Distritos que conforman las distintas rutas
+  * etc...
+* Se debe poder ubicar en **google map** cada estación.
+
+## Data
+Pueden consultar data para poder construir una estructura lógica que les permita obtener información de [Data](https://workshop-metropolitan.herokuapp.com)
+
 
 ## Calentamiento
 Para que llegues lista a romperla en el workshop, hay ciertas cosas que deberías saber. Creamos este calentamiento para que empieces a aprender nuevas herramientas y prepararte para el evento:
