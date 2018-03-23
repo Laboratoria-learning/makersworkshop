@@ -15,8 +15,11 @@ Crear una API RESTful utilizando `Node.js`, [ExpressJS](http://expressjs.com/es/
 * Se debe poder ubicar en **google map** cada estación.
 
 ## Data
-Pueden consultar data para poder construir una estructura lógica que les permita obtener información de [Data](https://workshop-metropolitan.herokuapp.com)
+Pueden consultar data para poder construir una estructura lógica que les permita obtener información de https://workshop-metropolitan.herokuapp.com
 
+**Nota:** 
+* Solo están las rutas en dirección Norte-Sur
+* Puedes consultar más información en http://www.metropolitano.com.pe/
 
 ## Calentamiento
 Para que llegues lista a romperla en el workshop, hay ciertas cosas que deberías saber. Creamos este calentamiento para que empieces a aprender nuevas herramientas y prepararte para el evento:
