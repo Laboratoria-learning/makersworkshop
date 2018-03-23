@@ -1,7 +1,7 @@
 # MAKERS WORKSHOP - 1st edition
 
 ## El reto 
-Diseña una plataforma para que las egresadas de Laboratoria puedan conectarse con empleadores freelancers.
+¿Cómo podríamos conectar a empleadores freelance con las egresadas de Laboratoria?.
 
 ## Entregables
 * User persona
