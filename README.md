@@ -11,7 +11,6 @@ Crear una API RESTful utilizando `Node.js`, [ExpressJS](http://expressjs.com/es/
   * Estaciones por las que pasa el expreso `n`
   * Horario del expreso `n`
   * Distritos que conforman las distintas rutas
-  * etc...
 * Se debe poder ubicar en **google map** cada estación.
 
 ## Data
