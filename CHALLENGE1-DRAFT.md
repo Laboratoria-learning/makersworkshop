@@ -1,45 +1,55 @@
-## Metrics Panel
+## Panel de métricas
 
 
-You are in charge of developing a brand new _metrics_ area as part of a dashboard(WobblyPanel) offered by your company as companion to their main product, an e-commerce site(WobblyStore).
+*WobblyStore* es una plataforma e-commerce, creada por Wobbly Inc.
+
+*WobblyPanel* es un panel de administración, ofrecido como complemento a WobblyStore.
+
+Se necesita desarrollar el área de _métricas_  para WobblyPanel, y hay ciertos requisitos mínimos a cumplir:
+
+  - Como usuario del panel, puedo visualizar las transacciones realizadas a través de WobblyStore en un gráfico(o gráficos).
+  - Como usuario del panel debo de algún modo ver el ticket promedio de las transacciones.
+  - Como usuario del panel puedo filtrar los datos mostrados por día/semana/año, o seleccionar un rango de fechas.
+  - Como usuario del panel soy capaz de exportar los datos visualizados en algún formato de archivo(excel, csv, etc)
+
+Debido a la naturaleza de estos requerimientos, debes considerar que en el lado del servidor (backend) necesitarás soportar diferentes opciones(filtrado, rangos, exportacion). Y por ello es que tu implementación será puesta a prueba contra un pequeño set de tests para corroborar que todo este funcionando como se espera.
 
 
-This new area main requirements are:
+### Estructura de una transacción
 
-- [ ] It should display a `<graphic>` based on the transactions made through WobblyStore.
-  - This should include the average ticket amount.
-  - Should allow viewing data per day/month/year
-- [ ] It should support changing the range from which the graphics data is generated.
-- [ ] It should allow to export those graphics as (excel || json || csv) files.
+```json
+{
+  "orderId": "order-xyz-1",
+  "createdAt": "", // ISO date
+  "total": 110.9,
+  "transactionItems": [
+    {
+      "id": "some-item-1",
+      "quantity": 2,
+      "price": 55.45
+    }
+  ]
+}
+```
 
-On the server side, you'll need to support several options to provide the frontend with the info it requires. For that, we'll provide a set of [tests](#tests) that we will run against your proposed API.
-
-
-### Transaction structure
-
-
-orderId|productId|total|paymentMethodId|createdAt|deletedAt
----|---|---|---|---|---
-1|PR001|102.50|2|timestamp|timestamp
-
-### Suggested technologies to approach this challenge
+### Tecnologías/librerías sugeridas para este reto
 
 **Frontend**:
 - ReactJs
-- For styling:
+- Para estilos:
   - CSS, SASS, LESS, etc
   - Styled Components
   - Emotion
   - Radium
-- For state management:
+- Para manejo de estado:
   - Plain old `setState`
   - Unstated
   - Redux
-- For data fetching:
+- Para peticiones de datos:
   - Plain old `fetch`
   - `axios`
   - firebase
-- For bundling:
+- Para bundling/bootstrapping:
   - `create-react-app`
   - `parcel`
   - `webpack`
@@ -52,20 +62,18 @@ orderId|productId|total|paymentMethodId|createdAt|deletedAt
 - Firebase
 
 
-### Resources
+### Recursos
   * WIP
 
 ### Tests
 
-This is an example of a test that will be run against your API.
+Este es un ejemplo muy simple de un test que será ejecutado usando tu API propuesta.
 
 ```js
-describe('Orders', () =>
-  it('should list all orders', async () => {
-  const fetchResponse = await fetch(API)
-  const { orders } = await fetchResponse.json ()
-  
-  expect(orders.length).toBe(100)
-  })
+const API = my-awesome-api.now.sh
+test('deberia listar todas las transacciones', async () => {
+  const fetchResponse = await fetch(`${API}/transacciones`)
+  const { transacciones } = await fetchResponse.json()
+  expect(transacciones.length).toBe(10)
 })
 ```
